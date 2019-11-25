@@ -13,7 +13,7 @@ public class ThreeSolidMain
    public static Manager tsManager = new Manager();
 
    // The entry main() method
-   public static void main(String[] args)
+   public static void main(String[] args)//this is a comment
    {
 
       try
@@ -22,7 +22,7 @@ public class ThreeSolidMain
       }
       catch (Exception main_except)
       {
-         main_except.printStackTrace();
+         main_except.printStackTrace();//this is also a comment
       }
 
             try
